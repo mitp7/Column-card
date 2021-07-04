@@ -1,0 +1,107 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.main-container {
+    display: flex;
+    position: relative;
+    height: 27rem;
+    width: 50rem;
+    margin: 6.25em 17.4em;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.main-container div {
+    padding: 2.5em 3.125em;
+}
+
+.main-container button {
+    margin-top: 3.125em;
+    padding: 0.625em 1.25em;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.sedan-box {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.sedan-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-box {
+    background-color: hsl(184, 100%, 22%);
+}
+.suv-cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-box {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.luxury-darkcyan {
+    color:  hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+    background-color: transparent;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+
+}
+
+.attribution {
+    font-family: 'Lexend Deca', sans-serif;
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 400;
+    position: absolute;
+    top: 43em; left: 35em;
+}
+
+@media (max-width: 500px) {
+    .main-container {
+        position: relative;
+        display: inline-block;
+        width: 20rem;
+        height: 27rem;
+    }
+
+    .sedan-box {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .luxury-box {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .attribution {
+        position: absolute;
+        top: 97em; right: 1em;
+    }
+}
