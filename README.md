@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://mitp7.github.io/Three-column-card/)
+- [Live Site URL](https://mitp7.github.io/Column-card/)
 
 ## My process
 
