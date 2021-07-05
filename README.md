@@ -38,5 +38,3 @@ Users should be able to:
 ### What I learned
 
 From this challenge I learned more about flexbox and how useful it is to organize divs in to columns or rows. I also learned that using flexbox also makes it easier to format the components in a mobile view.
-
-"# Three-column-card" 
