@@ -22,6 +22,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Version](./images/desktop-version.PNG)
+![Mobile Version](./design/mobile-design.jpg)
 
 ### Links
 
@@ -37,4 +38,4 @@ Users should be able to:
 
 ### What I learned
 
-From this challenge I learned more about flexbox and how useful it is to organize divs in to columns or rows. I also learned that using flexbox also makes it easier to format the components in a mobile view.
+From this challenge I learned more about flexbox and how it is usefeul to organize divs into columns or rows. I also learned that using flexbox also makes it easier to format the components in a mobile view.
