@@ -4,10 +4,14 @@ body {
 
 .main-container {
     display: flex;
-    position: relative;
     height: 27rem;
     width: 50rem;
-    margin: 6.25em 17.4em;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 h1 {
@@ -76,11 +80,14 @@ p {
     color: black;
     font-size: 0.875rem;
     font-weight: 400;
-    position: absolute;
-    top: 43em; left: 35em;
+    margin-top: 50%;
+    margin-left: 40%;
 }
 
 @media (max-width: 500px) {
+    body {
+        margin: 0px auto;
+    }
     .main-container {
         position: relative;
         flex-direction: column;
@@ -102,6 +109,7 @@ p {
 
     .attribution {
         position: absolute;
-        top: 97em; right: 1em;
+        margin-top: 200%;
+        margin-left: 7%;
     }
 }
